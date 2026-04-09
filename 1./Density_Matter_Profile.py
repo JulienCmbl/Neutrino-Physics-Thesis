@@ -37,7 +37,7 @@ c2t_extrm = np.cos(2*THETA_23)
 energies = [1e6, 1e7, 1e8]  # Neutrino energy in eV (example for 1 GeV neutrino)
 
 
-file_path = "C:/Users/jujus/Documents/Cours/5ème année/Data/radp.h5"
+file_path = ""
 with h5py.File(file_path, "r") as hdf_file:
     r_actual = hdf_file["r"][:]         # Actual distance values in cm
     r_data = r_actual                   # Keeping the distance in cm
