@@ -30,7 +30,7 @@ E = 1e7
 
 
 
-file_path = "C:/Users/Data/Data_interpolated_quadratic_new.h5"
+file_path = ""
 with h5py.File(file_path, "r") as hdf_file:
     r_data_new = hdf_file["r_fine"][:]
     density_data_new = hdf_file["rho_fine"][:]
