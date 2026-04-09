@@ -14,7 +14,7 @@ from matplotlib.animation import PillowWriter
 
 
 # Constants
-file_path = "C:/Users/jujus/Documents/Cours/5ème année/Data/radp.h5"
+file_path = ""
 with h5py.File(file_path, "r") as hdf_file:
     r_data = hdf_file["r"][:]  # Distance values in cm
     phi_data = hdf_file["phi"][:]  # Phi angles
