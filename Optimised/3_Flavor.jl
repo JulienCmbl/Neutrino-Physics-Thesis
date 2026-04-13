@@ -1,5 +1,7 @@
 ' Julia is supposedly the same  as Python but runs code much faster.'
 ' So the goal was to optimise even more to try to go faster than ~34sec, but even in Julia I did not manage to go below the 30sec'
+' Although Julia has a loop time of a couple of seconds, whilst Python takes 30+ seconds '
+' So the advantage of Julia here will be found if we re-run the code over and over again '
 
 using HDF5
 using LinearAlgebra
