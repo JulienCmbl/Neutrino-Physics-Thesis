@@ -1,4 +1,4 @@
-# Neutrino-Physics-Thesis
+# Collapsar Neutrino Evolution Code (CNEC)
 Simulation of Neutrino oscillation in a Collapsar, developed as part of my Master's Thesis under the supervision of Prof. Irene Tamborra.
 
 The thesis focused on understanding neutrino physics and simulating the evolution of a neutrino that is produced at the centre of the collapsing star and understanding how the flavor composition evolves as a function of distance, angle and time from the collapsar simulation. 
